@@ -1,0 +1,160 @@
+/* .carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 90%;
+  height: 300px;
+  background: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+/* Pause Button */
+/* .pause-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: black;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* Bottom Right Arrow Container */
+/* .arrow-container {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.arrow {
+  background: black;
+  color: white;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+}  */
+
+
+
+
+
+  .carousel {
+  width: 100%;
+  overflow: hidden;
+  background: red;
+  padding: 20px 0;
+}
+
+.carousel-track {
+  display: flex;
+  width: calc(250px * 8);
+  animation: scroll 20s linear infinite;
+}
+
+.slide {
+  width: 250px;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.slide img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Infinite Animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+} 
+
+.carousel-wrapper {
+ width: 100%;
+}
+
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  padding: 40px 0;
+  background: white;
+}
+
+.carousel-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 15s linear infinite;
+}
+
+.slide {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.number-box {
+  height: 150px;
+  background: black;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.control-btn {
+  margin-top: 20px;
+  margin-left: 12px;
+  padding: 8px 10px;
+  border: none;
+  background: black;
+  color: white;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+/*Infinite Animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+} 

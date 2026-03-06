@@ -1,0 +1,221 @@
+{"duration":"6ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T19:51:56.350Z","url":"/auth/user-login"}
+{"duration":"4125ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":200,"timestamp":"2026-03-03T19:52:28.123Z","url":"/api/auth/user-login"}
+{"level":"error","message":"Error fetching all products Can't find FULLTEXT index matching the column list","stack":"Error: Can't find FULLTEXT index matching the column list\n    at PromisePool.query (C:\\LUXEVASTRA\\backend\\node_modules\\mysql2\\lib\\promise\\pool.js:36:22)\n    at getAllProducts (file:///C:/LUXEVASTRA/backend/service/products.js:152:29)\n    at allProducts (file:///C:/LUXEVASTRA/backend/controllers/ProductController.js:125:32)\n    at Layer.handleRequest (C:\\LUXEVASTRA\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\LUXEVASTRA\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\LUXEVASTRA\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\LUXEVASTRA\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\LUXEVASTRA\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\LUXEVASTRA\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\LUXEVASTRA\\backend\\node_modules\\router\\index.js:582:12)","timestamp":"2026-03-03T19:57:03.599Z"}
+{"duration":"23ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":500,"timestamp":"2026-03-03T19:57:03.612Z","url":"/api/auth/product/allproducts?keyword=iphone15"}
+{"level":"error","message":"Error fetching all products Can't find FULLTEXT index matching the column list","stack":"Error: Can't find FULLTEXT index matching the column list\n    at PromisePool.query (C:\\LUXEVASTRA\\backend\\node_modules\\mysql2\\lib\\promise\\pool.js:36:22)\n    at getAllProducts (file:///C:/LUXEVASTRA/backend/service/products.js:152:29)\n    at allProducts (file:///C:/LUXEVASTRA/backend/controllers/ProductController.js:125:32)\n    at Layer.handleRequest (C:\\LUXEVASTRA\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\LUXEVASTRA\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\LUXEVASTRA\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\LUXEVASTRA\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\LUXEVASTRA\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\LUXEVASTRA\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\LUXEVASTRA\\backend\\node_modules\\router\\index.js:582:12)","timestamp":"2026-03-03T19:57:06.984Z"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":500,"timestamp":"2026-03-03T19:57:06.986Z","url":"/api/auth/product/allproducts?keyword=iphone"}
+{"level":"error","message":"Error fetching all products Can't find FULLTEXT index matching the column list","stack":"Error: Can't find FULLTEXT index matching the column list\n    at PromisePool.query (C:\\LUXEVASTRA\\backend\\node_modules\\mysql2\\lib\\promise\\pool.js:36:22)\n    at getAllProducts (file:///C:/LUXEVASTRA/backend/service/products.js:152:29)\n    at allProducts (file:///C:/LUXEVASTRA/backend/controllers/ProductController.js:125:32)\n    at Layer.handleRequest (C:\\LUXEVASTRA\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\LUXEVASTRA\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\LUXEVASTRA\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\LUXEVASTRA\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\LUXEVASTRA\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\LUXEVASTRA\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\LUXEVASTRA\\backend\\node_modules\\router\\index.js:582:12)","timestamp":"2026-03-03T19:57:16.612Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":500,"timestamp":"2026-03-03T19:57:16.614Z","url":"/api/auth/product/allproducts?keyword=shirts"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T20:01:52.298Z"}
+{"duration":"27ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T20:01:52.299Z","url":"/api/auth/product/allproducts?keyword=iphone"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T20:04:38.613Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T20:04:38.614Z","url":"/api/auth/product/allproducts?keyword=iphone"}
+{"level":"info","message":"Fetching product by ID","productId":"allproducts","timestamp":"2026-03-03T20:38:06.148Z"}
+{"duration":"18ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-03-03T20:38:06.157Z","url":"/api/auth/product/allproducts?keyword=iphone"}
+{"duration":"3859ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":200,"timestamp":"2026-03-03T20:39:42.187Z","url":"/api/auth/user-login"}
+{"level":"info","message":"Fetching product by ID","productId":"allproducts","timestamp":"2026-03-03T20:43:06.720Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-03-03T20:43:06.721Z","url":"/api/auth/product/allproducts?keyword=iphone"}
+{"level":"info","message":"Fetching product by ID","productId":"allproducts","timestamp":"2026-03-03T20:53:51.797Z"}
+{"duration":"23ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-03-03T20:53:51.809Z","url":"/api/auth/product/allproducts?keyword=iphone"}
+{"level":"info","message":"Fetching product by ID","productId":"allproducts","timestamp":"2026-03-03T20:58:11.371Z"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-03-03T20:58:11.373Z","url":"/api/auth/product/allproducts?keyword=iphone"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:03:13.382Z"}
+{"duration":"26ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:03:13.394Z","url":"/api/auth/product/allproducts?keyword=iphone"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:03:26.893Z"}
+{"duration":"5ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:03:26.895Z","url":"/api/auth/product/allproducts?keyword=iphone"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:03:45.467Z"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:03:45.468Z","url":"/api/auth/product/allproducts?keyword=iphone"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:05:03.890Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:05:03.892Z","url":"/api/auth/product/allproducts?keyword=iphone"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:05:21.267Z"}
+{"duration":"5ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:05:21.269Z","url":"/api/auth/product/allproducts?keyword=iphone"}
+{"count":0,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17"},"timestamp":"2026-03-03T21:06:33.204Z"}
+{"duration":"23ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:06:33.218Z","url":"/api/auth/product/allproducts?keyword=iphone17"}
+{"count":1,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17pro"},"timestamp":"2026-03-03T21:06:36.943Z"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:06:36.945Z","url":"/api/auth/product/allproducts?keyword=iphone17pro"}
+{"count":1,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17promax"},"timestamp":"2026-03-03T21:06:47.948Z"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:06:47.949Z","url":"/api/auth/product/allproducts?keyword=iphone17promax"}
+{"count":1,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17pro"},"timestamp":"2026-03-03T21:06:55.664Z"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:06:55.666Z","url":"/api/auth/product/allproducts?keyword=iphone17pro"}
+{"count":1,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17promax"},"timestamp":"2026-03-03T21:07:00.050Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:07:00.051Z","url":"/api/auth/product/allproducts?keyword=iphone17promax"}
+{"level":"info","message":"Fetching product by ID","productId":"allproduc","timestamp":"2026-03-03T21:08:06.733Z"}
+{"duration":"19ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-03-03T21:08:06.744Z","url":"/api/auth/product/allproduc?keyword=iphone17promax"}
+{"count":1,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17promax"},"timestamp":"2026-03-03T21:09:05.370Z"}
+{"duration":"6ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:09:05.373Z","url":"/api/auth/product/?keyword=iphone17promax"}
+{"count":1,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17promax"},"timestamp":"2026-03-03T21:09:07.369Z"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:09:07.370Z","url":"/api/auth/product?keyword=iphone17promax"}
+{"count":1,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17pro"},"timestamp":"2026-03-03T21:09:40.114Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:09:40.116Z","url":"/api/auth/product?keyword=iphone17pro"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:09:43.507Z"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:09:43.509Z","url":"/api/auth/product?keyword=iphone"}
+{"count":0,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17"},"timestamp":"2026-03-03T21:09:53.590Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:09:53.591Z","url":"/api/auth/product?keyword=iphone17"}
+{"count":1,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17pro"},"timestamp":"2026-03-03T21:09:57.019Z"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:09:57.021Z","url":"/api/auth/product?keyword=iphone17pro"}
+{"count":1,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17pro"},"timestamp":"2026-03-03T21:10:28.899Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:10:28.900Z","url":"/api/auth/product?keyword=iphone17pro"}
+{"count":1,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17pro"},"timestamp":"2026-03-03T21:11:16.256Z"}
+{"duration":"18ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:11:16.266Z","url":"/api/auth/product?keyword=iphone17pro"}
+{"count":1,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17pro"},"timestamp":"2026-03-03T21:13:30.138Z"}
+{"duration":"5ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:13:30.140Z","url":"/api/auth/product?keyword=iphone17pro"}
+{"count":0,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17"},"timestamp":"2026-03-03T21:13:32.035Z"}
+{"duration":"5ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:13:32.037Z","url":"/api/auth/product?keyword=iphone17"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:13:33.066Z"}
+{"duration":"9ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:13:33.069Z","url":"/api/auth/product?keyword=iphone"}
+{"count":1,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17pro"},"timestamp":"2026-03-03T21:13:45.740Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:13:45.741Z","url":"/api/auth/product?keyword=iphone17pro"}
+{"count":1,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17promax"},"timestamp":"2026-03-03T21:13:49.072Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:13:49.073Z","url":"/api/auth/product?keyword=iphone17promax"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"max"},"timestamp":"2026-03-03T21:13:54.258Z"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:13:54.261Z","url":"/api/auth/product?keyword=max"}
+{"count":0,"level":"info","message":"Fetched all products","query":{"keyword":"15max"},"timestamp":"2026-03-03T21:14:05.987Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:14:05.989Z","url":"/api/auth/product?keyword=15max"}
+{"count":0,"level":"info","message":"Fetched all products","query":{"keyword":"15promax"},"timestamp":"2026-03-03T21:14:09.550Z"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:14:09.550Z","url":"/api/auth/product?keyword=15promax"}
+{"count":0,"level":"info","message":"Fetched all products","query":{"keyword":"15pro"},"timestamp":"2026-03-03T21:14:17.493Z"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:14:17.495Z","url":"/api/auth/product?keyword=15pro"}
+{"count":0,"level":"info","message":"Fetched all products","query":{"keyword":"iphone15"},"timestamp":"2026-03-03T21:14:25.783Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:14:25.783Z","url":"/api/auth/product?keyword=iphone15"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:18:03.034Z"}
+{"duration":"18ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:18:03.043Z","url":"/api/auth/product?keyword=iphone"}
+{"count":1,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17pro"},"timestamp":"2026-03-03T21:18:11.905Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:18:11.906Z","url":"/api/auth/product?keyword=iphone17pro"}
+{"count":1,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17promax"},"timestamp":"2026-03-03T21:18:19.338Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:18:19.340Z","url":"/api/auth/product?keyword=iphone17promax"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:19:58.807Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:19:58.809Z","url":"/api/auth/product?keyword=iphone"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-03-03T21:19:58.949Z","url":"/favicon.ico"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:20:57.217Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:20:57.218Z","url":"/api/auth/product?keyword=iphone"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:21:24.372Z"}
+{"duration":"6ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:21:24.374Z","url":"/api/auth/product?keyword=iphone"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:21:27.982Z"}
+{"duration":"7ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:21:27.984Z","url":"/api/auth/product?keyword=iphone"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:21:38.677Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:21:38.678Z","url":"/api/auth/product?keyword=iphone"}
+{"count":1,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17pro"},"timestamp":"2026-03-03T21:21:45.553Z"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:21:45.555Z","url":"/api/auth/product?keyword=iphone17pro"}
+{"count":1,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17pro"},"timestamp":"2026-03-03T21:22:36.786Z"}
+{"duration":"6ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:22:36.788Z","url":"/api/auth/product?keyword=iphone17pro"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:22:37.810Z"}
+{"duration":"5ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:22:37.811Z","url":"/api/auth/product?keyword=iphone"}
+{"count":1,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17promax"},"timestamp":"2026-03-03T21:22:40.814Z"}
+{"duration":"6ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:22:40.817Z","url":"/api/auth/product?keyword=iphone17promax"}
+{"count":1,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17pro"},"timestamp":"2026-03-03T21:22:41.821Z"}
+{"duration":"26ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:22:41.822Z","url":"/api/auth/product?keyword=iphone17pro"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:22:42.204Z"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:22:42.205Z","url":"/api/auth/product?keyword=iphone"}
+{"count":1,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17pro"},"timestamp":"2026-03-03T21:25:36.218Z"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:25:36.219Z","url":"/api/auth/product?keyword=iphone17pro"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:25:37.862Z","url":"/api/auth/product/slug/iphone-2"}
+{"count":0,"level":"info","message":"Fetched all products","query":{"keyword":"iphone17"},"timestamp":"2026-03-03T21:25:51.113Z"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:25:51.114Z","url":"/api/auth/product?keyword=iphone17"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:25:52.906Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:25:52.907Z","url":"/api/auth/product?keyword=iphone"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:25:55.155Z","url":"/api/auth/product/slug/iphone-4"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:25:58.578Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:25:58.579Z","url":"/api/auth/product?keyword=iphone"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:26:00.852Z","url":"/api/auth/product/slug/iphone-2"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:26:05.970Z"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:26:05.972Z","url":"/api/auth/product?keyword=iphone"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:26:07.535Z","url":"/api/auth/product/slug/iphone-6"}
+{"count":9,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:26:11.530Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:26:11.531Z","url":"/api/auth/product?keyword=iphone"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:26:37.988Z","url":"/api/auth/product/slug/iphone-9"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:26:48.851Z","url":"/api/auth/product/slug/iphone-9"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:29:30.959Z","url":"/api/auth/product/slug/iphone-9"}
+{"count":7,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:29:38.096Z"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:29:38.097Z","url":"/api/auth/product?keyword=iphone"}
+{"duration":"5ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:29:42.045Z","url":"/api/auth/product/slug/iphone-3"}
+{"count":7,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:29:44.598Z"}
+{"duration":"5ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:29:44.599Z","url":"/api/auth/product?keyword=iphone"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:29:45.834Z","url":"/api/auth/product/slug/iphone-9"}
+{"count":7,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:29:47.763Z"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:29:47.765Z","url":"/api/auth/product?keyword=iphone"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:29:49.251Z","url":"/api/auth/product/slug/iphone-4"}
+{"count":7,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:29:51.250Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:29:51.251Z","url":"/api/auth/product?keyword=iphone"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:29:52.580Z","url":"/api/auth/product/slug/iphone-6"}
+{"count":7,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:29:54.998Z"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:29:54.999Z","url":"/api/auth/product?keyword=iphone"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:29:56.786Z","url":"/api/auth/product/slug/iphone-8"}
+{"count":7,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:29:58.682Z"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:29:58.682Z","url":"/api/auth/product?keyword=iphone"}
+{"count":7,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:30:00.576Z"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:30:00.577Z","url":"/api/auth/product?keyword=iphone"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:30:02.929Z","url":"/api/auth/product/slug/iphone-3"}
+{"count":7,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:30:05.106Z"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:30:05.106Z","url":"/api/auth/product?keyword=iphone"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:30:06.348Z","url":"/api/auth/product/slug/iphone-4"}
+{"count":7,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:30:09.063Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:30:09.064Z","url":"/api/auth/product?keyword=iphone"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:30:10.395Z","url":"/api/auth/product/slug/iphone-9"}
+{"count":7,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:30:11.989Z"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:30:11.990Z","url":"/api/auth/product?keyword=iphone"}
+{"count":7,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:31:00.005Z"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:31:00.006Z","url":"/api/auth/product?keyword=iphone"}
+{"count":7,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:31:51.943Z"}
+{"duration":"22ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:31:51.955Z","url":"/api/auth/product?keyword=iphone"}
+{"count":0,"level":"info","message":"Fetched all products","query":{"keyword":"iphone15"},"timestamp":"2026-03-03T21:33:01.950Z"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:33:01.953Z","url":"/api/auth/product?keyword=iphone15"}
+{"count":7,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:33:15.803Z"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:33:15.804Z","url":"/api/auth/product?keyword=iphone"}
+{"duration":"6ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:33:17.546Z","url":"/api/auth/product/slug/iphone-9"}
+{"count":7,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:33:19.073Z"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:33:19.075Z","url":"/api/auth/product?keyword=iphone"}
+{"count":7,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:40:19.258Z"}
+{"duration":"18ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:40:19.267Z","url":"/api/auth/product?keyword=iphone"}
+{"count":7,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:43:24.769Z"}
+{"duration":"5ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-03-03T21:43:24.772Z","url":"/api/auth/product?keyword=iphone"}
+{"count":7,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:44:21.731Z"}
+{"duration":"17ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:44:21.740Z","url":"/api/auth/product?keyword=iphone"}
+{"duration":"6ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:45:12.671Z","url":"/api/auth/product/slug/iphone-9"}
+{"count":7,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:45:15.022Z"}
+{"duration":"7ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:45:15.024Z","url":"/api/auth/product?keyword=iphone"}
+{"duration":"5ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:45:16.363Z","url":"/api/auth/product/slug/iphone-4"}
+{"count":7,"level":"info","message":"Fetched all products","query":{"keyword":"iphone"},"timestamp":"2026-03-03T21:45:18.283Z"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:45:18.285Z","url":"/api/auth/product?keyword=iphone"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-03-03T21:45:19.544Z","url":"/api/auth/product/slug/iphone-3"}
+{"duration":"4330ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":200,"timestamp":"2026-03-03T22:02:01.689Z","url":"/api/auth/user-login"}
+{"duration":"3ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:02:34.986Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:02:41.673Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:02:42.438Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:02:42.676Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:02:42.926Z","url":"/auth/user-login"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:02:43.156Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:02:43.779Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:02:44.140Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:02:44.398Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:02:44.635Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:02:44.864Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:02:45.048Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:02:45.264Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:03:08.077Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:03:11.252Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:03:11.655Z","url":"/auth/user-login"}
+{"duration":"0ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:03:15.522Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:03:17.591Z","url":"/auth/user-login"}
+{"duration":"0ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:03:17.862Z","url":"/auth/user-login"}
+{"duration":"0ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:03:18.082Z","url":"/auth/user-login"}
+{"duration":"0ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:03:22.464Z","url":"/auth/user-login"}
+{"duration":"0ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:03:22.686Z","url":"/auth/user-login"}
+{"duration":"0ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:03:24.219Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:03:39.042Z","url":"/auth/user-login"}
+{"duration":"7ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:05:57.255Z","url":"/auth/user-login"}
+{"duration":"7ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:07:13.623Z","url":"/auth/user-login"}
+{"duration":"5ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:09:55.679Z","url":"/auth/user-login"}
+{"duration":"6ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:11:57.168Z","url":"/auth/user-login"}
+{"duration":"3648ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":200,"timestamp":"2026-03-03T22:12:53.698Z","url":"/api/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:13:24.771Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:13:41.893Z","url":"/auth/user-login"}
+{"duration":"2ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:13:44.252Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:13:47.400Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:13:47.684Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:13:47.943Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:13:48.194Z","url":"/auth/user-login"}
+{"duration":"0ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:13:48.446Z","url":"/auth/user-login"}
+{"duration":"1ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-03-03T22:13:48.668Z","url":"/auth/user-login"}
+{"level":"error","message":"Error fetching all products Unknown column 'slug' in 'field list'","stack":"Error: Unknown column 'slug' in 'field list'\n    at PromisePool.query (C:\\Users\\Lenovo\\Downloads\\luxvastra\\LUXEVASTRA\\backend\\node_modules\\mysql2\\lib\\promise\\pool.js:36:22)\n    at getAllProducts (file:///C:/Users/Lenovo/Downloads/luxvastra/LUXEVASTRA/backend/service/products.js:161:29)\n    at allProducts (file:///C:/Users/Lenovo/Downloads/luxvastra/LUXEVASTRA/backend/controllers/ProductController.js:126:32)\n    at Layer.handleRequest (C:\\Users\\Lenovo\\Downloads\\luxvastra\\LUXEVASTRA\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\Lenovo\\Downloads\\luxvastra\\LUXEVASTRA\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\Lenovo\\Downloads\\luxvastra\\LUXEVASTRA\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\Lenovo\\Downloads\\luxvastra\\LUXEVASTRA\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\Lenovo\\Downloads\\luxvastra\\LUXEVASTRA\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\Lenovo\\Downloads\\luxvastra\\LUXEVASTRA\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\Lenovo\\Downloads\\luxvastra\\LUXEVASTRA\\backend\\node_modules\\router\\index.js:582:12)","timestamp":"2026-03-04T10:54:08.452Z"}
+{"duration":"209ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","status":500,"timestamp":"2026-03-04T10:54:08.458Z","url":"/api/auth/product?keyword=iphone"}
+{"duration":"4221ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","status":200,"timestamp":"2026-03-04T13:46:59.209Z","url":"/api/auth/user-login"}
