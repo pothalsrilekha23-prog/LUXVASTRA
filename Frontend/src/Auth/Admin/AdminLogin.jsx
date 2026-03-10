@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
 // import "../../styles/auth.css";
 
 export default function AdminLogin() {
@@ -15,13 +16,7 @@ export default function AdminLogin() {
     setErrors({ ...errors, [e.target.name]: "" });
   };
 
-  const validateLogin = () => {
-    let err = {};
-    if (!form.email) err.email = "Email or Admin ID is required";
-    if (!form.password) err.password = "Password is required";
-    setErrors(err);
-    return Object.keys(err).length === 0;
-  };
+ 
 
   const validateRegister = () => {
     let err = {};
@@ -62,6 +57,51 @@ export default function AdminLogin() {
   const handleGoogleAdminResponse = (response) => {
     sendGoogleAdminTokenToBackend(response.credential);
   };
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+   const validateLogin = () => {
+    let err = {};
+    if (!form.email) err.email = "Email or Admin ID is required";
+    if (!form.password) err.password = "Password is required";
+    setErrors(err);
+    return Object.keys(err).length === 0;
+  };
+
+  const handleAdminLogin = async () => {
+    if (!validateLogin()) return;
+        
+
+    try {
+      const res = await adminLoginBackend({
+        email,
+      password
+      });
+
+      console.log(res);
+
+      if (res.success) {
+        navigate("/admindashboard");
+      }
+    } catch (error) {
+      console.log("Login failed", error);
+    }
+  };
+
+  
+
+
+ const adminLoginBackend = async (data) => {
+  const response = await axios.post(
+    "http://localhost:4000/api/auth/admin-login",
+    data
+  );
+
+  return response.data;
+};
+
+
+
 
   const sendGoogleAdminTokenToBackend = async (token) => {
     try {
@@ -133,7 +173,7 @@ export default function AdminLogin() {
                 type="text"
                 name="email"
                 placeholder="Admin Email / ID"
-                onChange={handleChange}
+                onChange={(e) => setEmail(e.target.value)}
               />
               {errors.email && (
                 <span className="error">{errors.email}</span>
@@ -143,17 +183,13 @@ export default function AdminLogin() {
                 type="password"
                 name="password"
                 placeholder="Password"
-                onChange={handleChange}
+                onChange={(e) => setPassword(e.target.value)}
               />
               {errors.password && (
                 <span className="error">{errors.password}</span>
               )}
 
-              <button
-                onClick={() => {
-                  if (validateLogin()) navigate("/admindashboard");
-                }}
-              >
+              <button onClick={handleAdminLogin}>
                 Login
               </button>
 

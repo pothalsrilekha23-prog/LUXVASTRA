@@ -1,10 +1,12 @@
 import { useNavigate } from "react-router-dom";
-// import "../styles/dashboard.css";
+import { useState } from "react";
+
 const banner =
   "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1600";
 
 export default function AdminDashboard() {
   const navigate = useNavigate();
+  const [catalogOpen, setCatalogOpen] = useState(false);
 
   const handleLogout = () => {
     navigate("/");
@@ -39,6 +41,33 @@ export default function AdminDashboard() {
           <ul style={{ listStyle: "none", padding: 0 }}>
             <li style={sidebarItem}>Overview</li>
             <li style={sidebarItem}>Products</li>
+            <li style={sidebarItem} onClick={() => setCatalogOpen(!catalogOpen)}>
+              Catalog Management
+            </li>
+
+            {catalogOpen && (
+              <ul style={{ listStyle: "none", paddingLeft: "15px", fontSize: "14px" }}>
+                <li style={sidebarItem} onClick={() => navigate("/admin/categories")}>
+                  Categories
+                </li>
+
+                <li style={sidebarItem} onClick={() => navigate("/admin/attributes")}>
+                  Attributes
+                </li>
+
+                <li style={sidebarItem} onClick={() => navigate("/admin/approve-products")}>
+                  Approve / Reject Products
+                </li>
+
+                <li style={sidebarItem} onClick={() => navigate("/admin/featured-products")}>
+                  Featured Products
+                </li>
+
+                <li style={sidebarItem} onClick={() => navigate("/admin/brands")}>
+                  Brand Management
+                </li>
+              </ul>
+            )}
             <li style={sidebarItem}>Orders</li>
             <li style={sidebarItem}>Analytics</li>
           </ul>

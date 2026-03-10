@@ -59,7 +59,7 @@ export default function VerifyOtp() {
         : { phonenumber: userData.phonenum, otp: finalOtp };
 
       await axios.post(
-  "http://localhost:4000/auth/user-loginverify",
+  "http://localhost:4000/api/auth/user-loginverify",
   payload,
   { withCredentials: true }
 );
